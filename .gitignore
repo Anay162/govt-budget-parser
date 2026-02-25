@@ -1,0 +1,14 @@
+# Python Virtual Environment
+budget_env/
+__pycache__/
+*.pyc
+
+# Local Data and Vector Database (DO NOT PUSH)
+data/raw/
+data/chunks/
+data/chroma_db/
+*.pdf
+*.json
+
+# OS generated files
+.DS_Store

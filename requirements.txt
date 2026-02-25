@@ -1,0 +1,26 @@
+# --- Orchestration & LLM Integration ---
+langchain>=0.1.0
+langchain-core>=0.1.52
+langchain-community>=0.0.38
+langchain-openai>=0.1.3 
+tiktoken>=0.6.0             
+
+# --- Advanced Document Parsing (The Core) ---
+unstructured[pdf]>=0.12.0
+pdf2image>=1.17.0            # Required by unstructured for visual layout
+pdfminer.six>=20231228       # Required by unstructured for text extraction
+pi-heif>=0.15.0              # Image dependency for Unstructured
+
+# --- Embeddings & Vector Database ---
+chromadb>=0.4.24             # Local vector database for rapid prototyping
+sentence-transformers>=2.6.0 # To run models like BAAI/bge-m3 or nomic-embed locally
+langchain-huggingface>=0.0.1 # HuggingFace integration for local embeddings
+
+# --- Evaluation Framework ---
+ragas>=0.1.7                 # For programmatic evaluation (context precision/recall)
+datasets>=2.18.0             # Required by ragas to build the evaluation dataset
+
+# --- Application UI & Utilities ---
+streamlit>=1.32.0            # For building the demo interface for your Loom video
+python-dotenv>=1.0.1         # For managing API keys safely (.env file)
+pydantic>=2.6.4              # For strict data validation (metadata schemas)
