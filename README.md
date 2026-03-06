@@ -28,8 +28,8 @@ This pipeline solves these issues through a strictly controlled, multi-stage arc
 
 **1. Clone the repo and set up the environment:**
 ```bash
-git clone <your-repo-link>
-cd pursuit-budget-rag
+git clone <https://github.com/Anay162/govt-budget-parser>
+cd govt-budget-parser
 python -m venv budget_env
 source budget_env/bin/activate
 pip install -r requirements.txt
